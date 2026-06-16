@@ -4,7 +4,6 @@ import { Request, Response } from "express";
 import { connectDB } from "./config/db.ts";
 import { todoRouter } from "./todo/todo.routes.ts";
 import { authRouter } from "./auth/auth.routes.ts";
-
 dotenv.config();
 
 connectDB();
